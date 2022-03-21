@@ -7,9 +7,9 @@ version '0.0.2'
 
 server_scripts {
     'config.lua',
-    'server/commandChecker.lua',
-    'server/webhook.lua',
-    'server/main.lua'
+    'commandChecker.lua',
+    'webhook.lua',
+    'main.lua'
 }
 
 server_only 'yes'
